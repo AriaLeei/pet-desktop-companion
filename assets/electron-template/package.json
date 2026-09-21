@@ -1,0 +1,16 @@
+{
+  "name": "personal-pet-desktop-companion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personalized macOS desktop pet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:arm64": "electron-packager . PetDesktopCompanion --platform=darwin --arch=arm64 --overwrite --out=dist --ignore='^/dist$'",
+    "pack:x64": "electron-packager . PetDesktopCompanion --platform=darwin --arch=x64 --overwrite --out=dist --ignore='^/dist$'"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "electron": "^37.2.6"
+  }
+}
