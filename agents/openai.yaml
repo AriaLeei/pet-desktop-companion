@@ -1,0 +1,4 @@
+interface:
+  display_name: "宠物桌面伙伴"
+  short_description: "Create interactive Mac desktop pets from real photos"
+  default_prompt: "Use $pet-desktop-companion to turn photos of my pet into an interactive Mac desktop companion."
